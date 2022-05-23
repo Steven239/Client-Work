@@ -1,1 +1,1 @@
-Inside of this repository, you will find samples of my codes from the task I was tassinged with while working at Trainsquare.
+Trainsquare is an eduactioal and skills platform which allows its users to host their own in-person or online workshops as well as book courses, lessons and activities. Trainsquare is an MVP and due to the proprietary nature of the code I can only provide code snippets of my code. Inside of this repository, you will find samples of my codes from SQL, .Net, and ReactJs for the Advertisement feature I was assigned.
