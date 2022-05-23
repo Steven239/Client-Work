@@ -1,0 +1,43 @@
+USE [Trainsquare]
+GO
+/****** Object:  StoredProcedure [dbo].[Advertisements_Delete]    Script Date: 5/23/2022 2:59:37 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author: Charles, Steven
+-- Create date: 20220401
+-- Description: Delete Proc
+-- Code Reviewer:
+
+-- MODIFIED BY: Abel Amezcua
+-- MODIFIED DATE: 4/1/2020
+-- Code Reviewer: Abel Amezcua
+-- Note: No comments
+-- =============================================
+
+ALTER Proc [dbo].[Advertisements_Delete]
+
+		 @Id int
+		
+
+/* ============== Test Code ==============
+
+			DECLARE @Id int = 9
+				  
+          
+		    EXECUTE dbo.Advertisements_Delete @Id 
+
+  ======================================= */
+
+
+AS 
+
+BEGIN
+
+DELETE FROM [dbo].[Advertisements]
+      WHERE @Id = Id
+
+
+END
